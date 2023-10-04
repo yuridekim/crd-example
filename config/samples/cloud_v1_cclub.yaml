@@ -1,0 +1,12 @@
+apiVersion: cloud.my.domain/v1
+kind: Cclub
+metadata:
+  labels:
+    app.kubernetes.io/name: cclub
+    app.kubernetes.io/instance: cclub-sample
+    app.kubernetes.io/part-of: crd-example
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: crd-example
+  name: cclub-sample
+spec:
+  # TODO(user): Add fields here
