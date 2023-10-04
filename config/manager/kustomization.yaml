@@ -5,4 +5,4 @@ kind: Kustomization
 images:
 - name: controller
   newName: yuridekim/cclub-test
-  newTag: yvae-ff6597
+  newTag: yvae-246696
