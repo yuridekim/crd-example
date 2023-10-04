@@ -24,7 +24,7 @@ all: build
 
 GIT_SHORT_REF ?= $(shell git rev-parse --short=6 HEAD)
 TAG ?= $(CURRENT_USER)-$(GIT_SHORT_REF)
-IMG ?= yuridekim/cclub:$(TAG)
+IMG ?= yuridekim/cclub-test:$(TAG)
 CURRENT_USER ?= $(shell whoami)
 
 ##@ General

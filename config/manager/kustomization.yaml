@@ -4,5 +4,5 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: controller
-  newName: yuridekim/cclub
-  newTag: yvae-b1b098
+  newName: yuridekim/cclub-test
+  newTag: yvae-3f8b09
