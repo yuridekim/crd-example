@@ -34,13 +34,19 @@ spec:
           spec:
             description: CclubSpec defines the desired state of Cclub
             properties:
-              foo:
-                description: Foo is an example field of Cclub. Edit cclub_types.go
-                  to remove/update
+              name:
                 type: string
+              size:
+                type: integer
             type: object
           status:
             description: CclubStatus defines the observed state of Cclub
+            properties:
+              name:
+                description: 'INSERT ADDITIONAL STATUS FIELD - define observed state
+                  of cluster Important: Run "make" to regenerate code after modifying
+                  this file'
+                type: string
             type: object
         type: object
     served: true

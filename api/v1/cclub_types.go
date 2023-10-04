@@ -28,14 +28,15 @@ type CclubSpec struct {
 	// INSERT ADDITIONAL SPEC FIELDS - desired state of cluster
 	// Important: Run "make" to regenerate code after modifying this file
 
-	// Foo is an example field of Cclub. Edit cclub_types.go to remove/update
-	Foo string `json:"foo,omitempty"`
+	Name string `json:"name,omitempty"`
+	Size int    `json:"size,omitempty"`
 }
 
 // CclubStatus defines the observed state of Cclub
 type CclubStatus struct {
 	// INSERT ADDITIONAL STATUS FIELD - define observed state of cluster
 	// Important: Run "make" to regenerate code after modifying this file
+	Name string `json:"name,omitempty"`
 }
 
 //+kubebuilder:object:root=true

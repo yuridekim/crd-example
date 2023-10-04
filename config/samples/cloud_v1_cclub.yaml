@@ -10,3 +10,5 @@ metadata:
   name: cclub-sample
 spec:
   # TODO(user): Add fields here
+  name: demo
+  size: 10
